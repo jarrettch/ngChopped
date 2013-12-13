@@ -1,0 +1,18 @@
+<h1>Chopped Mystery Basket Generator!</h1>
+
+<p>Make your very own Mystery Basket!</p>
+<p>Just like on the great show, Chopped, on Food Network!</p>
+<div class="row">
+  <div class="col-xs-6 col-md-6" style="float: left">
+    <h4>Appetizer Ingredients</h4>
+    <li ng-repeat="appetizer in appetizers">{{ appetizer }}</li>
+  </div>
+  <div class="col-xs-6 col-md-6" style="float: left">
+    <h4>Entree Ingredients</h4>
+    <li ng-repeat="entree in entrees">{{ entree }}</li>
+  </div>
+  <div class="col-xs-6 col-md-6" style="float: left">
+    <h4>Dessert Ingredients</h4>
+    <li ng-repeat="dessert in desserts">{{ dessert }}</li>
+  </div>
+</div>
