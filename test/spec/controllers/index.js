@@ -19,4 +19,12 @@ describe('Controller: IndexCtrl', function () {
   it('should attach a list of appetizers to the scope', function () {
     expect(scope.appetizers.length).toBe(844);
   });
+
+  it('should attach a list of entrees to the scope', function () {
+    expect(scope.entrees.length).toBe(882);
+  });
+
+  it('should attach a list of desserts to the scope', function () {
+    expect(scope.desserts.length).toBe(872);
+  });
 });
