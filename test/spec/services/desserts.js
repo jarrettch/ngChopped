@@ -3,7 +3,7 @@
 describe('Service: Desserts', function () {
 
   // load the service's module
-  beforeEach(module('NgchoppedApp'));
+  beforeEach(module('ngChoppedApp'));
 
   // instantiate service
   var Desserts;
