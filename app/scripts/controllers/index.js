@@ -24,4 +24,6 @@ angular.module('ngChoppedApp')
       return array;
     }
 
+    // init();
+
   });

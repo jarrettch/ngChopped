@@ -2,20 +2,20 @@
 
 <p>Make your very own Mystery Basket!</p>
 <p>Just like on, Chopped, the cooking show on Food Network!</p>
-<div class="row">
-  <div class="col-xs-6 col-md-6" style="float: left">
+<div class="pure-g-r">
+  <div class="pure-u-1-3">
     <h4>Appetizer Ingredients</h4>
     <li ng-repeat="appetizer in appetizers | limitTo:4">{{ appetizer }}</li>
-    <button type="button" class="btn btn-primary" ng-click="newBox(appetizers)">New Box!</button>
+    <button type="button" class="pure-button pure-button-primary" ng-click="newBox(appetizers)">New Box!</button>
   </div>
-  <div class="col-xs-6 col-md-6" style="float: left">
+  <div class="pure-u-1-3">
     <h4>Entree Ingredients</h4>
     <li ng-repeat="entree in entrees | limitTo:4">{{ entree }}</li>
-    <button type="button" class="btn btn-primary" ng-click="newBox(entrees)">New Box!</button>
+    <button type="button" class="pure-button pure-button-primary" ng-click="newBox(entrees)">New Box!</button>
   </div>
-  <div class="col-xs-6 col-md-6" style="float: left">
+  <div class="pure-u-1-3">
     <h4>Dessert Ingredients</h4>
     <li ng-repeat="dessert in desserts | limitTo:4">{{ dessert }}</li>
-    <button type="button" class="btn btn-primary" ng-click="newBox(desserts)">New Box!</button>
+    <button type="button" class="pure-button pure-button-primary" ng-click="newBox(desserts)">New Box!</button>
   </div>
 </div>
