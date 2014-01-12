@@ -8,8 +8,8 @@ angular.module('ngChoppedApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/index.html',
-        controller: 'IndexCtrl'
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: '/'
