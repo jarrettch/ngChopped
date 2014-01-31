@@ -3,7 +3,9 @@
 angular.module('ngChoppedApp', [
   'ngCookies',
   'ngResource',
-  'ngSanitize'
+  'ngSanitize',
+  'ngAnimate',
+  'ngRoute'
 ])
   .config(function ($routeProvider) {
     $routeProvider
